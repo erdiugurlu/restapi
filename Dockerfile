@@ -1,6 +1,6 @@
 FROM erdiugurlu/golang-alpine-git:1.13.6 AS builder
  
-LABEL MAINTAINER=erdi.ugurlu@isbank.com.tr
+LABEL MAINTAINER=ugurluerdi@gmail.com
  
 RUN mkdir /user && \
     echo 'nobody:x:65534:65534:nobody:/:' > /user/passwd && \
